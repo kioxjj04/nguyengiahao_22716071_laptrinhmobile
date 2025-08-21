@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6", /* Chỉ định phiên bản JavaScript mà TypeScript sẽ biên dịch ra */
+    "module": "commonjs", /* Sử dụng module CommonJS */
+    "strict": true, /* Bật kiểm tra strict */
+    "esModuleInterop": true, /* Hỗ trợ import/export ES Modules */
+    "outDir": "./dist", /* Thư mục chứa các tệp JavaScript đã biên dịch */
+    "rootDir": "./src", /* Thư mục gốc chứa tệp TypeScript */
+    "skipLibCheck": true, /* Bỏ qua kiểm tra các tệp khai báo thư viện */
+    "strictPropertyInitialization": false,
+  },
+  "include": ["src/**/*", "dist/index.js", "dist/bai30.js", "dist/bai29.js", "dist/bai27.js", "dist/bai28.js", "dist/bai25.js", "dist/bai26.js", "dist/bai24.js", "dist/bai23.js", "dist/bai22.js", "dist/bai21.js", "dist/bai20.js", "dist/bai19.js", "dist/Bai18.js", "dist/Bai17.js", "dist/Bai16.js", "dist/Bai15.js", "dist/Bai14.js", "dist/Bai13.js", "dist/bai12.js", "dist/bai11.js", "dist/bai10.js", "dist/bai9.js", "dist/bai8.js", "dist/bai7.js", "dist/bai6.js", "dist/bai5.js", "dist/bai4.js", "dist/bai3.js", "dist/bai2.js", "dist/bai1.js"],
+  "exclude": ["node_modules"]
+}
